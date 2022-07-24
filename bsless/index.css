@@ -1,0 +1,183 @@
+body {
+  margin-top: 50px;
+}
+header .st1 {
+  background-color: #012269 !important;
+}
+header .st0 {
+  height: 157px;
+  background: url('img1.jpg') no-repeat center center;
+}
+header .st0 .st2 {
+  height: 110px;
+}
+header .st0 .st2 .st3 {
+  line-height: 108px;
+  background: url('img3.png') no-repeat right center;
+}
+header .st0 .st4 {
+  height: 47px;
+  background-color: rgba(3, 43, 131, 0.3) !important;
+  position: relative;
+}
+header .st0 .st4 > div {
+  display: flex;
+}
+header .st0 .st4 > div dl {
+  flex: 1;
+}
+header .st0 .st4 > div dl:hover dd {
+  display: block;
+}
+header .st0 .st4 > div dl dt {
+  line-height: 47px;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+header .st0 .st4 > div dl dt:hover {
+  cursor: pointer;
+  background-color: #9fd1f0;
+}
+header .st0 .st4 > div dl dd {
+  z-index: 999;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 47px;
+  width: 100%;
+  background-color: rgba(202, 200, 200, 0.8);
+}
+header .st0 .st4 > div dl dd a {
+  display: block;
+  color: black;
+  line-height: 2;
+}
+footer {
+  background: url('img2.jpg') no-repeat center center;
+  height: 240px;
+}
+footer div.container {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+footer .st5 p:last-child {
+  margin-top: 20px;
+}
+footer .st5 p:last-child a {
+  display: block;
+  color: white;
+  line-height: 1.8;
+  padding-left: 30px;
+}
+footer .st5 p:last-child a:hover {
+  color: red;
+}
+footer .st5 p:last-child a:first-child {
+  background: url('img5.png') no-repeat left center;
+}
+footer .st6 {
+  color: white;
+  line-height: 2.2;
+}
+footer .st6 p:first-child {
+  border-bottom: 1px solid white;
+}
+footer .st6 p:first-child::before {
+  content: " ";
+  position: absolute;
+  width: 30%;
+  height: 1px;
+  background-color: white;
+  margin-top: 30px;
+}
+footer .st6 a {
+  display: block;
+  color: white;
+}
+footer .st6 a:hover {
+  color: red;
+}
+footer > p {
+  text-align: center;
+  background-color: #041438;
+  line-height: 30px;
+  color: #999;
+}
+main .stm1 p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-align: justify;
+  margin-top: 10px 0 20px;
+  text-indent: 2em;
+}
+main .stm2 {
+  padding: 20px 10px;
+}
+main .stm2 a {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 2.8;
+  font-size: 15px;
+}
+main .stm3 section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .stm3 section a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 2.8;
+  font-size: 15px;
+}
+main .stm3 section span {
+  width: 100px;
+  text-align: right;
+}
+main .stm4 {
+  bottom: -35px;
+}
+main .stm4 li {
+  border-color: blue;
+}
+main .stm4 li.active {
+  background-color: red;
+}
+main .stm5 {
+  border-bottom: 2px solid #999;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  position: relative;
+}
+main .stm5::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 20%;
+  background-color: #101098;
+  left: 0;
+  bottom: -1px;
+}
+main .stm6 a {
+  margin-bottom: 30px;
+  display: block;
+  box-sizing: border-box;
+  height: 150px;
+}
+main .stm6 a:hover {
+  border: 2px solid #b8b6b6;
+  background-color: #b8b6b6;
+}
+main .stm6 a img {
+  width: 100%;
+}
+main .stm6 a p {
+  text-align: center;
+  margin-top: 10px;
+}

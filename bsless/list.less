@@ -1,0 +1,170 @@
+body{
+    margin-top:50px;
+}
+header{
+    .st1{
+        background-color: #012269 !important;
+    }
+    .st0{
+        height: 157px;
+        background:url('img1.jpg') no-repeat center center;
+        .st2{
+            height: 110px; 
+            .st3{
+                line-height:108px;
+                background: url('img3.png') no-repeat right center;
+            }
+        }
+        .st4{
+            height:47px;
+            background-color: rgba(3,43,131,.3) !important;
+            position: relative;
+            >div{
+                display: flex;   
+                dl{
+                    flex:1;
+                    &:hover  dd{
+                        display: block;
+                    }
+                    dt{
+                        line-height:47px;
+                        font-size:15px;
+                        color: white;
+                        text-align: center;
+                        &:hover {
+                            cursor: pointer; 
+                            background-color: rgb(159, 209, 240);
+                        }
+                    }
+                    dd{
+                        z-index: 999;
+                        display:none;
+                        position: absolute;
+                        left: 0;
+                        top:47px;
+                        width: 100%;
+                        background-color:rgba(202, 200, 200, 0.8);
+                        a{
+                            display: block;
+                            color:black;
+                            line-height:2;
+                        }
+                    }
+                }
+            }
+           
+        }
+    }
+}
+footer{
+    background:url('img2.jpg') no-repeat center center;
+    height:240px;
+    div.container{
+        padding-top:30px;
+        // box-sizing: border-box;
+        padding-bottom:20px;
+    }
+    .st5{
+        p:last-child{
+            margin-top:20px;
+            a{
+                display:block;
+                color: white;
+                line-height:1.8;
+                padding-left:30px;
+                &:hover{
+                    color:red;
+                }
+                &:first-child{
+                    background:url('img5.png') no-repeat left center;
+                }
+            }
+        }
+    }
+    .st6{
+        // &.st7{
+        //     line-height: 1.6px;;
+        // }
+        color:white;
+        line-height: 2.2;
+        p:first-child{
+            border-bottom: 1px solid white;
+            &::before{
+                content: " ";
+                position: absolute;
+                width:30%;
+                height:1px;
+                background-color:white;
+                margin-top:30px;
+            }
+        }
+        a{
+            display: block;
+            color:white;
+            &:hover{
+                color:red;
+            }
+        }
+    }
+    >p{
+        text-align:center;
+        background-color:#041438;
+        line-height:30px;
+        color:#999;
+    }
+}
+main{
+    background-color:#efefef;
+    padding:30px 0;
+    .list1{
+        h3{
+            font-size:20px;
+        }
+        ul li{
+            line-height: 35px;
+            text-align: center;
+            margin-right: 40px;
+            list-style: none;
+            a{
+                font-size:16px;
+                
+            }
+        }
+    }
+    .list2{
+        h3{
+            font-size:20px;
+        }
+        ol{
+            margin-top:-20px;
+            background-color:transparent;
+            color:white;
+            li.active{
+                color:white;
+            }
+            a{
+                color:white;
+            }
+           
+        }
+    }
+    .list3{
+        h4{
+            margin-top:0;
+            span{
+                color:#999;
+            }
+        }
+        div{
+            text-indent: 2em;
+        }
+    }
+    .list4{
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        border-bottom: 1px dashed #ccc;
+        &:last-child{
+            border-bottom: none;
+        }
+    }
+}
